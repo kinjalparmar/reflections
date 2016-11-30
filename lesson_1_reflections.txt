@@ -1,0 +1,39 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Using diff we could easily compare the code and find the difference between the two. By doing this we are able to quickly find out the mistake (For example typos) we have made and can easily fix the bug.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Using version control we can commit a file whenever we have made some logical change in it and it alos provide a message in whcih we can describe what changes we have done to it and we could see the entire history of changes we have made. Being able to view the difference between the two commits is pretty convenient. This gives the confidence do to more changes as we know that if we would stuck at one point we could easily browse the history and undo the mistake.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I would like to Git for version control.
+
+How could having easy access to the entire history of a file make you a more efficient
+programmer in the long term?
+
+    It would definitely make us more efficient as we can find the changes we have made previously and compare them to find out what mistakes we hve done.
+    Other than this if we have different versions of file with one change per commit, we could easily figure out the difference and be able to fix any bug or typos.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+    The advantage of manually creating a commit is that we will have the full control over how he/she will make changes in the futher version. If if is done automatically for example for every two hours, then there is a chance that we are in the middle of something and the version control system commit it which can lead to errors or bugs.
+
+    The disadvantage is our human nature. There is fair chance that we could forget to commit and the size of changes in the next version is too big to find the differences.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git is designed with code in mind. Multiple files may get linked to one another. For example .html file is linked to .css file and a small change in either of two can affect the another one. So it is necessary to save both of them in a one commit.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    With git log we can see the commit id, author's name, date of commit and message of all the commits.With the diff command we can see the changes that have been made in different version of file and also the difference between two versions.
+
+How might using version control make you more confident to make changes that could break something?
+    Using version control I can rollback to any commit and check every commits one bye one to find the one in which the bug is introduced. It is done using "git checkout". After finding the effected commit I can check the difference between the infected commit and its most recent commit which is not infected and could easily undo the mistakes to remove the bug.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+    I would like to make a repository where I can store all my commits and work with that.
